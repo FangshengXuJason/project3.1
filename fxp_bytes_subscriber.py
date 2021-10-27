@@ -2,7 +2,7 @@ import socket
 import struct
 from datetime import datetime, timedelta
 
-from BellmanFord import BellmanFord
+from bellman_ford import BellmanFord
 
 BUF_SZ = 4096  # tcp receive buffer size
 PUBLISHER_ADDRESS = ('127.0.0.1', 21212)
